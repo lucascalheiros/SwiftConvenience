@@ -9,6 +9,7 @@ import UIKit
 import SwiftUI
 
 public extension UIColor {
+    @available(iOS 13.0, *)
     var suColor: Color {
         Color(self)
     }

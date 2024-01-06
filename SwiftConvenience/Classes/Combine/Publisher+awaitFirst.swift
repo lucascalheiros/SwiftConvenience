@@ -11,9 +11,11 @@ import Combine
 public extension Publisher where Self.Failure == Never {
     @available(iOS 15, *)
     func awaitFirst<T>() async throws -> T where Self.Output == T {
+        var firstValue: T? = nil
         for try await value in self.values {
-            return value
+            firstValue = value
+            break
         }
-        throw fatalError("Value never came")
+        return firstValue!
     }
 }

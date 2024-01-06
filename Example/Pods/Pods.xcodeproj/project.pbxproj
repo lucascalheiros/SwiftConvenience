@@ -15,10 +15,32 @@
 			dependencies = (
 			);
 			name = SwiftConvenience;
+			productName = SwiftConvenience;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		170702572B49F26B0076C4E5 /* Publisher+filterNotNull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1707023D2B49F26B0076C4E5 /* Publisher+filterNotNull.swift */; };
+		170702582B49F26B0076C4E5 /* Publisher+awaitFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1707023E2B49F26B0076C4E5 /* Publisher+awaitFirst.swift */; };
+		170702592B49F26B0076C4E5 /* UIColor+Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702412B49F26B0076C4E5 /* UIColor+Conversions.swift */; };
+		1707025A2B49F26B0076C4E5 /* SimplifiedGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702422B49F26B0076C4E5 /* SimplifiedGestureRecognizer.swift */; };
+		1707025B2B49F26B0076C4E5 /* UIViewController+HideKeyboardWhenTappedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702432B49F26B0076C4E5 /* UIViewController+HideKeyboardWhenTappedOut.swift */; };
+		1707025C2B49F26B0076C4E5 /* UICollectionView+IdentifiableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702442B49F26B0076C4E5 /* UICollectionView+IdentifiableCell.swift */; };
+		1707025D2B49F26B0076C4E5 /* UIView+AddTapListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702452B49F26B0076C4E5 /* UIView+AddTapListener.swift */; };
+		1707025E2B49F26B0076C4E5 /* ProgramaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702462B49F26B0076C4E5 /* ProgramaticView.swift */; };
+		1707025F2B49F26B0076C4E5 /* UIEdgeInsets+Shorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702472B49F26B0076C4E5 /* UIEdgeInsets+Shorthand.swift */; };
+		170702602B49F26B0076C4E5 /* UITableView+IdentifiableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702482B49F26B0076C4E5 /* UITableView+IdentifiableCell.swift */; };
+		170702612B49F26B0076C4E5 /* UIStackView+AddConstrainedArrangedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702492B49F26B0076C4E5 /* UIStackView+AddConstrainedArrangedSubview.swift */; };
+		170702622B49F26B0076C4E5 /* UIView+AddConstrainedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1707024A2B49F26B0076C4E5 /* UIView+AddConstrainedSubview.swift */; };
+		170702632B49F26B0076C4E5 /* IdentifiableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1707024C2B49F26B0076C4E5 /* IdentifiableCell.swift */; };
+		170702642B49F26B0076C4E5 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 1707024D2B49F26B0076C4E5 /* .gitkeep */; };
+		170702652B49F26B0076C4E5 /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1707024F2B49F26B0076C4E5 /* TimePeriod.swift */; };
+		170702662B49F26B0076C4E5 /* ScopedExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702502B49F26B0076C4E5 /* ScopedExtensions.swift */; };
+		170702672B49F26B0076C4E5 /* CollectionExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702512B49F26B0076C4E5 /* CollectionExt.swift */; };
+		170702682B49F26B0076C4E5 /* ConvenienceNumberConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702522B49F26B0076C4E5 /* ConvenienceNumberConversions.swift */; };
+		170702692B49F26B0076C4E5 /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702532B49F26B0076C4E5 /* DateExt.swift */; };
+		1707026A2B49F26B0076C4E5 /* ThemedColorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702552B49F26B0076C4E5 /* ThemedColorProtocol.swift */; };
+		1707026B2B49F26B0076C4E5 /* ThemedColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170702562B49F26B0076C4E5 /* ThemedColor.swift */; };
 		2C9FA6D21414B1DEA3030DB1CEFC80D5 /* Pods-SwiftConvenience_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C4EDBECF31BDFC3DE28C32407B3783 /* Pods-SwiftConvenience_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		419D95698930DC10D1EC3C3347A1A497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		51E26CED690E729F711966CA04A956F8 /* Pods-SwiftConvenience_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB763A389B9EB7C18978268F0704225 /* Pods-SwiftConvenience_Tests-dummy.m */; };
@@ -50,9 +72,30 @@
 		0691F6480D6D67A413149348DD70B48F /* Pods-SwiftConvenience_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftConvenience_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		06D4788ABDBF8EB4B98CE50647AEE6D9 /* Pods-SwiftConvenience_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftConvenience_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0A390FFF8C58E128ABD26E069BBD4030 /* Pods-SwiftConvenience_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftConvenience_Tests"; path = Pods_SwiftConvenience_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1707023D2B49F26B0076C4E5 /* Publisher+filterNotNull.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+filterNotNull.swift"; sourceTree = "<group>"; };
+		1707023E2B49F26B0076C4E5 /* Publisher+awaitFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Publisher+awaitFirst.swift"; sourceTree = "<group>"; };
+		170702412B49F26B0076C4E5 /* UIColor+Conversions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Conversions.swift"; sourceTree = "<group>"; };
+		170702422B49F26B0076C4E5 /* SimplifiedGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplifiedGestureRecognizer.swift; sourceTree = "<group>"; };
+		170702432B49F26B0076C4E5 /* UIViewController+HideKeyboardWhenTappedOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+HideKeyboardWhenTappedOut.swift"; sourceTree = "<group>"; };
+		170702442B49F26B0076C4E5 /* UICollectionView+IdentifiableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+IdentifiableCell.swift"; sourceTree = "<group>"; };
+		170702452B49F26B0076C4E5 /* UIView+AddTapListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddTapListener.swift"; sourceTree = "<group>"; };
+		170702462B49F26B0076C4E5 /* ProgramaticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgramaticView.swift; sourceTree = "<group>"; };
+		170702472B49F26B0076C4E5 /* UIEdgeInsets+Shorthand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Shorthand.swift"; sourceTree = "<group>"; };
+		170702482B49F26B0076C4E5 /* UITableView+IdentifiableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+IdentifiableCell.swift"; sourceTree = "<group>"; };
+		170702492B49F26B0076C4E5 /* UIStackView+AddConstrainedArrangedSubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+AddConstrainedArrangedSubview.swift"; sourceTree = "<group>"; };
+		1707024A2B49F26B0076C4E5 /* UIView+AddConstrainedSubview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AddConstrainedSubview.swift"; sourceTree = "<group>"; };
+		1707024C2B49F26B0076C4E5 /* IdentifiableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifiableCell.swift; sourceTree = "<group>"; };
+		1707024D2B49F26B0076C4E5 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		1707024F2B49F26B0076C4E5 /* TimePeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimePeriod.swift; sourceTree = "<group>"; };
+		170702502B49F26B0076C4E5 /* ScopedExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScopedExtensions.swift; sourceTree = "<group>"; };
+		170702512B49F26B0076C4E5 /* CollectionExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionExt.swift; sourceTree = "<group>"; };
+		170702522B49F26B0076C4E5 /* ConvenienceNumberConversions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenienceNumberConversions.swift; sourceTree = "<group>"; };
+		170702532B49F26B0076C4E5 /* DateExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		170702552B49F26B0076C4E5 /* ThemedColorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemedColorProtocol.swift; sourceTree = "<group>"; };
+		170702562B49F26B0076C4E5 /* ThemedColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemedColor.swift; sourceTree = "<group>"; };
 		18D9E995E368D4128433E6F908B737A0 /* Pods-SwiftConvenience_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftConvenience_Example-umbrella.h"; sourceTree = "<group>"; };
-		1D7CA5BACDBEDEE5F21792B8D6EA3753 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		41B856291FB7C737ABE202AB70D13DBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D7CA5BACDBEDEE5F21792B8D6EA3753 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		41B856291FB7C737ABE202AB70D13DBA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		42C6D07BA83A1AC8573B106A186B4FB8 /* SwiftConvenience.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftConvenience.debug.xcconfig; sourceTree = "<group>"; };
 		42FE79CFC3702D6F61AA2691FF565431 /* Pods-SwiftConvenience_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftConvenience_Tests-Info.plist"; sourceTree = "<group>"; };
 		57AF1355C3848CAFCE8D57EE8A91A9A1 /* Pods-SwiftConvenience_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftConvenience_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -64,11 +107,11 @@
 		69C4EDBECF31BDFC3DE28C32407B3783 /* Pods-SwiftConvenience_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftConvenience_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9B481FDECC8847CA2D1B3D39660D695F /* Pods-SwiftConvenience_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftConvenience_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ED27CBEBA043BDEC07680568A614DFB /* Pods-SwiftConvenience_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftConvenience_Example.modulemap"; sourceTree = "<group>"; };
 		C2F7F7267A8E2AB512B2F9554646E7C1 /* Pods-SwiftConvenience_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftConvenience_Example-Info.plist"; sourceTree = "<group>"; };
 		C579E550CD7C182162ECF16B42856D00 /* Pods-SwiftConvenience_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftConvenience_Example-dummy.m"; sourceTree = "<group>"; };
-		F63C9DA623ADCFA49DD1A31A2EE00408 /* SwiftConvenience.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftConvenience.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F63C9DA623ADCFA49DD1A31A2EE00408 /* SwiftConvenience.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftConvenience.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F655D57192A8DDB56EBD11F45FE02DB7 /* Pods-SwiftConvenience_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftConvenience_Example"; path = Pods_SwiftConvenience_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,11 +158,89 @@
 		0D1AA946F2E01783FCBA7CDFF74E53A9 /* SwiftConvenience */ = {
 			isa = PBXGroup;
 			children = (
+				1707023B2B49F26B0076C4E5 /* Classes */,
 				00F486208AE7D3047453A016E64B3235 /* Pod */,
 				04B106041C49F15EAE72295D5C999A6B /* Support Files */,
 			);
 			name = SwiftConvenience;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		1707023B2B49F26B0076C4E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1707023C2B49F26B0076C4E5 /* Combine */,
+				1707023F2B49F26B0076C4E5 /* RxSwift */,
+				170702402B49F26B0076C4E5 /* UIKit */,
+				1707024D2B49F26B0076C4E5 /* .gitkeep */,
+				1707024E2B49F26B0076C4E5 /* Foundation */,
+				170702542B49F26B0076C4E5 /* Theme */,
+			);
+			name = Classes;
+			path = SwiftConvenience/Classes;
+			sourceTree = "<group>";
+		};
+		1707023C2B49F26B0076C4E5 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				1707023D2B49F26B0076C4E5 /* Publisher+filterNotNull.swift */,
+				1707023E2B49F26B0076C4E5 /* Publisher+awaitFirst.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		1707023F2B49F26B0076C4E5 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		170702402B49F26B0076C4E5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				170702462B49F26B0076C4E5 /* ProgramaticView.swift */,
+				170702422B49F26B0076C4E5 /* SimplifiedGestureRecognizer.swift */,
+				170702442B49F26B0076C4E5 /* UICollectionView+IdentifiableCell.swift */,
+				170702412B49F26B0076C4E5 /* UIColor+Conversions.swift */,
+				170702472B49F26B0076C4E5 /* UIEdgeInsets+Shorthand.swift */,
+				170702492B49F26B0076C4E5 /* UIStackView+AddConstrainedArrangedSubview.swift */,
+				170702482B49F26B0076C4E5 /* UITableView+IdentifiableCell.swift */,
+				1707024A2B49F26B0076C4E5 /* UIView+AddConstrainedSubview.swift */,
+				170702452B49F26B0076C4E5 /* UIView+AddTapListener.swift */,
+				170702432B49F26B0076C4E5 /* UIViewController+HideKeyboardWhenTappedOut.swift */,
+				1707024B2B49F26B0076C4E5 /* Protocols */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1707024B2B49F26B0076C4E5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1707024C2B49F26B0076C4E5 /* IdentifiableCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1707024E2B49F26B0076C4E5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1707024F2B49F26B0076C4E5 /* TimePeriod.swift */,
+				170702502B49F26B0076C4E5 /* ScopedExtensions.swift */,
+				170702512B49F26B0076C4E5 /* CollectionExt.swift */,
+				170702522B49F26B0076C4E5 /* ConvenienceNumberConversions.swift */,
+				170702532B49F26B0076C4E5 /* DateExt.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		170702542B49F26B0076C4E5 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				170702552B49F26B0076C4E5 /* ThemedColorProtocol.swift */,
+				170702562B49F26B0076C4E5 /* ThemedColor.swift */,
+			);
+			path = Theme;
 			sourceTree = "<group>";
 		};
 		2E83E4220FA44D3C3A41E3C114A3D9B6 /* Development Pods */ = {
@@ -301,6 +422,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170702642B49F26B0076C4E5 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +440,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170702612B49F26B0076C4E5 /* UIStackView+AddConstrainedArrangedSubview.swift in Sources */,
+				170702602B49F26B0076C4E5 /* UITableView+IdentifiableCell.swift in Sources */,
 				9007D3C535E5B93FEB7EAA3A7C77DABA /* Pods-SwiftConvenience_Example-dummy.m in Sources */,
+				1707025E2B49F26B0076C4E5 /* ProgramaticView.swift in Sources */,
+				170702592B49F26B0076C4E5 /* UIColor+Conversions.swift in Sources */,
+				170702572B49F26B0076C4E5 /* Publisher+filterNotNull.swift in Sources */,
+				1707025F2B49F26B0076C4E5 /* UIEdgeInsets+Shorthand.swift in Sources */,
+				170702582B49F26B0076C4E5 /* Publisher+awaitFirst.swift in Sources */,
+				1707025B2B49F26B0076C4E5 /* UIViewController+HideKeyboardWhenTappedOut.swift in Sources */,
+				1707025A2B49F26B0076C4E5 /* SimplifiedGestureRecognizer.swift in Sources */,
+				170702692B49F26B0076C4E5 /* DateExt.swift in Sources */,
+				1707025D2B49F26B0076C4E5 /* UIView+AddTapListener.swift in Sources */,
+				1707026A2B49F26B0076C4E5 /* ThemedColorProtocol.swift in Sources */,
+				170702652B49F26B0076C4E5 /* TimePeriod.swift in Sources */,
+				170702632B49F26B0076C4E5 /* IdentifiableCell.swift in Sources */,
+				170702622B49F26B0076C4E5 /* UIView+AddConstrainedSubview.swift in Sources */,
+				1707026B2B49F26B0076C4E5 /* ThemedColor.swift in Sources */,
+				170702682B49F26B0076C4E5 /* ConvenienceNumberConversions.swift in Sources */,
+				170702672B49F26B0076C4E5 /* CollectionExt.swift in Sources */,
+				1707025C2B49F26B0076C4E5 /* UICollectionView+IdentifiableCell.swift in Sources */,
+				170702662B49F26B0076C4E5 /* ScopedExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,8 +627,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
