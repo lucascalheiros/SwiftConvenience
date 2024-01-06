@@ -1,0 +1,16 @@
+PODS:
+  - SwiftConvenience (0.1.0)
+
+DEPENDENCIES:
+  - SwiftConvenience (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftConvenience:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftConvenience: b42567c9dc9336df57105fbc5682468d6eb0bb0a
+
+PODFILE CHECKSUM: 4b8dadf45ce88dd39608c3a99706920bf0b6a7bf
+
+COCOAPODS: 1.14.3
